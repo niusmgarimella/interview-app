@@ -1,0 +1,20 @@
+:root { --bg:#f6f7f9; --card:#fff; --text:#1c2230; --muted:#667085; --line:#d9dde5; --brand:#2f5bea; --bad:#c0362c; --ok:#1a7f4b; }
+@media (prefers-color-scheme: dark) { :root { --bg:#12151c; --card:#1b2029; --text:#e8ebf2; --muted:#9aa3b5; --line:#2e3646; --brand:#7b9bff; --bad:#ff8a80; --ok:#5fd39a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--text); font:16px/1.5 system-ui, sans-serif; }
+main { max-width: 860px; margin: 0 auto; padding: 24px 16px 64px; }
+.card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:20px; margin-bottom:16px; }
+h1,h2,h3 { margin:0 0 12px; } h1 { font-size:22px; } h2 { font-size:18px; } h3 { font-size:16px; }
+label { display:block; margin:10px 0 4px; font-weight:600; font-size:14px; }
+input, select, textarea { width:100%; padding:9px 10px; border:1px solid var(--line); border-radius:6px; background:var(--bg); color:var(--text); font:inherit; }
+textarea { font-family: ui-monospace, Menlo, monospace; min-height:220px; }
+input[type=radio], input[type=checkbox] { width:auto; }
+button { padding:9px 16px; border:0; border-radius:6px; background:var(--brand); color:#fff; font:inherit; font-weight:600; cursor:pointer; }
+button.sec { background:transparent; color:var(--brand); border:1px solid var(--brand); }
+button:disabled { opacity:.5; cursor:not-allowed; }
+.row { display:flex; gap:10px; flex-wrap:wrap; align-items:center; } .between { justify-content:space-between; }
+.muted { color:var(--muted); font-size:14px; } .err { color:var(--bad); min-height:1.3em; } .ok { color:var(--ok); }
+table { width:100%; border-collapse:collapse; font-size:14px; } th,td { text-align:left; padding:8px; border-bottom:1px solid var(--line); }
+.tablewrap { overflow-x:auto; } .opt { display:flex; gap:8px; align-items:center; padding:8px 0; font-weight:400; }
+.warn { background:#fff4e5; color:#7a4b00; border:1px solid #f0c36d; padding:10px 14px; border-radius:6px; margin-bottom:12px; }
+pre { white-space:pre-wrap; background:var(--bg); padding:10px; border-radius:6px; overflow-x:auto; }

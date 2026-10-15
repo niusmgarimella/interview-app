@@ -1,0 +1,184 @@
+[
+  {
+    "id": "ef8b2ca5-5705-4e8c-9350-9a03b9261ce4",
+    "attempt_id": "86e1731a-9531-4b1e-8521-ea0406957a79",
+    "overall_score": 23,
+    "max_score": 55,
+    "skill_scores": {
+      "JavaScript": {
+        "level": "ADVANCED",
+        "score": 6,
+        "max": 15
+      },
+      "React": {
+        "level": "ADVANCED",
+        "score": 6,
+        "max": 15
+      },
+      "TypeScript": {
+        "level": "ADVANCED",
+        "score": 11,
+        "max": 15
+      },
+      "HTML/CSS": {
+        "level": "ADVANCED",
+        "score": 0,
+        "max": 10
+      }
+    },
+    "question_results": [
+      {
+        "question_id": "a83b1024-e094-40ea-9176-498c75e01c1f",
+        "skill_name": "JavaScript",
+        "points": 6,
+        "max": 10,
+        "rationale": "[MOCK] length-based placeholder score"
+      },
+      {
+        "question_id": "fb7e3aec-f3cb-42cb-9cdc-5028f00025ca",
+        "skill_name": "JavaScript",
+        "points": 0,
+        "max": 5,
+        "rationale": "Incorrect"
+      },
+      {
+        "question_id": "87daeb09-09b7-403e-9ca7-36ffd404eda6",
+        "skill_name": "React",
+        "points": 6,
+        "max": 10,
+        "rationale": "[MOCK] length-based placeholder score"
+      },
+      {
+        "question_id": "453235e7-41ae-43c6-8327-c74e655f6f62",
+        "skill_name": "React",
+        "points": 0,
+        "max": 5,
+        "rationale": "Incorrect"
+      },
+      {
+        "question_id": "802333a8-ebf9-43eb-b7fa-6c5eea2e6b19",
+        "skill_name": "TypeScript",
+        "points": 6,
+        "max": 10,
+        "rationale": "[MOCK] length-based placeholder score"
+      },
+      {
+        "question_id": "7923562c-38bf-4cd8-b368-a5648be254ea",
+        "skill_name": "TypeScript",
+        "points": 5,
+        "max": 5,
+        "rationale": "Correct"
+      },
+      {
+        "question_id": "5eaecc87-1d08-41b1-965f-7aa1df7f181f",
+        "skill_name": "HTML/CSS",
+        "points": 0,
+        "max": 5,
+        "rationale": "Incorrect"
+      },
+      {
+        "question_id": "64df3e45-21a8-49e1-8db6-3dd9a6d15b1d",
+        "skill_name": "HTML/CSS",
+        "points": 0,
+        "max": 5,
+        "rationale": "Incorrect"
+      }
+    ],
+    "feedback": "JavaScript (ADVANCED): 6/15\nReact (ADVANCED): 6/15\nTypeScript (ADVANCED): 11/15\nHTML/CSS (ADVANCED): 0/10",
+    "evaluation_model": "mock-provider",
+    "evaluation_version": "1.0",
+    "status": "COMPLETED",
+    "evaluated_at": "2026-10-15T08:42:28.410Z"
+  },
+  {
+    "id": "fb31a28f-224b-42fc-89c6-f0f1d368f904",
+    "attempt_id": "065883bf-442a-4f7a-839b-77d77a2fe50d",
+    "overall_score": 28,
+    "max_score": 55,
+    "skill_scores": {
+      "JavaScript": {
+        "level": "INTERMEDIATE",
+        "score": 11,
+        "max": 15
+      },
+      "React": {
+        "level": "ADVANCED",
+        "score": 11,
+        "max": 15
+      },
+      "TypeScript": {
+        "level": "ADVANCED",
+        "score": 6,
+        "max": 15
+      },
+      "HTML/CSS": {
+        "level": "ADVANCED",
+        "score": 0,
+        "max": 10
+      }
+    },
+    "question_results": [
+      {
+        "question_id": "a2ebe8ff-35dc-4d2e-9c87-016a9f4460dd",
+        "skill_name": "JavaScript",
+        "points": 6,
+        "max": 10,
+        "rationale": "[MOCK] length-based placeholder score"
+      },
+      {
+        "question_id": "62a1f807-29c5-4e27-87e2-7ea0b8eee92a",
+        "skill_name": "JavaScript",
+        "points": 5,
+        "max": 5,
+        "rationale": "Correct"
+      },
+      {
+        "question_id": "c9008d8f-506b-49a8-a517-6e6655a3488f",
+        "skill_name": "React",
+        "points": 6,
+        "max": 10,
+        "rationale": "[MOCK] length-based placeholder score"
+      },
+      {
+        "question_id": "21ac69de-e8b0-423a-83f4-606229a3ae0f",
+        "skill_name": "React",
+        "points": 5,
+        "max": 5,
+        "rationale": "Correct"
+      },
+      {
+        "question_id": "329bfe03-14fe-4630-a361-9ba2a30f2bdf",
+        "skill_name": "TypeScript",
+        "points": 6,
+        "max": 10,
+        "rationale": "[MOCK] length-based placeholder score"
+      },
+      {
+        "question_id": "fe1c0b0c-0f08-4ed7-83ab-2c5adbdcb745",
+        "skill_name": "TypeScript",
+        "points": 0,
+        "max": 5,
+        "rationale": "No answer submitted"
+      },
+      {
+        "question_id": "74ffbbd1-c262-4f7f-bcd6-7c3b392cf2ba",
+        "skill_name": "HTML/CSS",
+        "points": 0,
+        "max": 5,
+        "rationale": "No answer submitted"
+      },
+      {
+        "question_id": "14fd84a1-5503-4505-810f-34fba4ea9ab2",
+        "skill_name": "HTML/CSS",
+        "points": 0,
+        "max": 5,
+        "rationale": "No answer submitted"
+      }
+    ],
+    "feedback": "JavaScript (INTERMEDIATE): 11/15\nReact (ADVANCED): 11/15\nTypeScript (ADVANCED): 6/15\nHTML/CSS (ADVANCED): 0/10",
+    "evaluation_model": "mock-provider",
+    "evaluation_version": "1.0",
+    "status": "COMPLETED",
+    "evaluated_at": "2026-10-15T08:44:55.743Z"
+  }
+]

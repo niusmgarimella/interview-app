@@ -1,0 +1,32 @@
+[
+  {
+    "id": "86e1731a-9531-4b1e-8521-ea0406957a79",
+    "interview_id": "866f5829-3553-4af0-9f21-db2d17617043",
+    "candidate_user_id": "24178e43-15c0-4ca5-bd39-4b4f66d9d041",
+    "status": "EVALUATED",
+    "started_at": "2026-10-15T08:39:52.717Z",
+    "submitted_at": "2026-10-15T08:42:28.397Z",
+    "deadline_at": "2026-10-15T09:24:52.717Z",
+    "completed_at": "2026-10-15T08:42:28.397Z",
+    "warning_count": 0,
+    "termination_reason": null,
+    "result_released_at": null,
+    "created_at": "2026-10-15T08:38:54.846Z",
+    "updated_at": "2026-10-15T08:42:28.410Z"
+  },
+  {
+    "id": "065883bf-442a-4f7a-839b-77d77a2fe50d",
+    "interview_id": "866f5829-3553-4af0-9f21-db2d17617043",
+    "candidate_user_id": "a4d293f7-ca3f-4587-b939-bc4ccaa12194",
+    "status": "TERMINATED",
+    "started_at": "2026-10-15T08:44:22.930Z",
+    "submitted_at": null,
+    "deadline_at": "2026-10-15T09:29:22.930Z",
+    "completed_at": "2026-10-15T08:44:55.712Z",
+    "warning_count": 3,
+    "termination_reason": "WINDOW_VIOLATION_LIMIT",
+    "result_released_at": null,
+    "created_at": "2026-10-15T08:44:05.303Z",
+    "updated_at": "2026-10-15T08:44:55.743Z"
+  }
+]

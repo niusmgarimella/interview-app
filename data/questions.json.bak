@@ -1,0 +1,187 @@
+[
+  {
+    "id": "a83b1024-e094-40ea-9176-498c75e01c1f",
+    "attempt_id": "86e1731a-9531-4b1e-8521-ea0406957a79",
+    "sequence_number": 1,
+    "skill_name": "JavaScript",
+    "proficiency": "ADVANCED",
+    "question_type": "CODING",
+    "prompt": "[MOCK] ADVANCED JavaScript: write a function that returns the sum of an array of numbers.",
+    "options": null,
+    "language": "javascript",
+    "points_possible": 10,
+    "generation_model": "mock-provider",
+    "prompt_version": "1.0",
+    "created_at": "2026-10-15T08:39:52.716Z"
+  },
+  {
+    "id": "fb7e3aec-f3cb-42cb-9cdc-5028f00025ca",
+    "attempt_id": "86e1731a-9531-4b1e-8521-ea0406957a79",
+    "sequence_number": 2,
+    "skill_name": "JavaScript",
+    "proficiency": "ADVANCED",
+    "question_type": "MCQ",
+    "prompt": "[MOCK] ADVANCED JavaScript question 2: which option is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      }
+    ],
+    "language": null,
+    "points_possible": 5,
+    "generation_model": "mock-provider",
+    "prompt_version": "1.0",
+    "created_at": "2026-10-15T08:39:52.717Z"
+  },
+  {
+    "id": "87daeb09-09b7-403e-9ca7-36ffd404eda6",
+    "attempt_id": "86e1731a-9531-4b1e-8521-ea0406957a79",
+    "sequence_number": 3,
+    "skill_name": "React",
+    "proficiency": "ADVANCED",
+    "question_type": "CODING",
+    "prompt": "[MOCK] ADVANCED React: write a function that returns the sum of an array of numbers.",
+    "options": null,
+    "language": "javascript",
+    "points_possible": 10,
+    "generation_model": "mock-provider",
+    "prompt_version": "1.0",
+    "created_at": "2026-10-15T08:39:52.717Z"
+  },
+  {
+    "id": "453235e7-41ae-43c6-8327-c74e655f6f62",
+    "attempt_id": "86e1731a-9531-4b1e-8521-ea0406957a79",
+    "sequence_number": 4,
+    "skill_name": "React",
+    "proficiency": "ADVANCED",
+    "question_type": "MCQ",
+    "prompt": "[MOCK] ADVANCED React question 2: which option is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      }
+    ],
+    "language": null,
+    "points_possible": 5,
+    "generation_model": "mock-provider",
+    "prompt_version": "1.0",
+    "created_at": "2026-10-15T08:39:52.717Z"
+  },
+  {
+    "id": "802333a8-ebf9-43eb-b7fa-6c5eea2e6b19",
+    "attempt_id": "86e1731a-9531-4b1e-8521-ea0406957a79",
+    "sequence_number": 5,
+    "skill_name": "TypeScript",
+    "proficiency": "ADVANCED",
+    "question_type": "CODING",
+    "prompt": "[MOCK] ADVANCED TypeScript: write a function that returns the sum of an array of numbers.",
+    "options": null,
+    "language": "javascript",
+    "points_possible": 10,
+    "generation_model": "mock-provider",
+    "prompt_version": "1.0",
+    "created_at": "2026-10-15T08:39:52.717Z"
+  },
+  {
+    "id": "7923562c-38bf-4cd8-b368-a5648be254ea",
+    "attempt_id": "86e1731a-9531-4b1e-8521-ea0406957a79",
+    "sequence_number": 6,
+    "skill_name": "TypeScript",
+    "proficiency": "ADVANCED",
+    "question_type": "MCQ",
+    "prompt": "[MOCK] ADVANCED TypeScript question 2: which option is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      }
+    ],
+    "language": null,
+    "points_possible": 5,
+    "generation_model": "mock-provider",
+    "prompt_version": "1.0",
+    "created_at": "2026-10-15T08:39:52.717Z"
+  },
+  {
+    "id": "5eaecc87-1d08-41b1-965f-7aa1df7f181f",
+    "attempt_id": "86e1731a-9531-4b1e-8521-ea0406957a79",
+    "sequence_number": 7,
+    "skill_name": "HTML/CSS",
+    "proficiency": "ADVANCED",
+    "question_type": "MCQ",
+    "prompt": "[MOCK] ADVANCED HTML/CSS question 1: which option is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      }
+    ],
+    "language": null,
+    "points_possible": 5,
+    "generation_model": "mock-provider",
+    "prompt_version": "1.0",
+    "created_at": "2026-10-15T08:39:52.717Z"
+  },
+  {
+    "id": "64df3e45-21a8-49e1-8db6-3dd9a6d15b1d",
+    "attempt_id": "86e1731a-9531-4b1e-8521-ea0406957a79",
+    "sequence_number": 8,
+    "skill_name": "HTML/CSS",
+    "proficiency": "ADVANCED",
+    "question_type": "MCQ",
+    "prompt": "[MOCK] ADVANCED HTML/CSS question 2: which option is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      }
+    ],
+    "language": null,
+    "points_possible": 5,
+    "generation_model": "mock-provider",
+    "prompt_version": "1.0",
+    "created_at": "2026-10-15T08:39:52.717Z"
+  }
+]

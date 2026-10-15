@@ -1,0 +1,68 @@
+[
+  {
+    "id": "bfab5f95-e8c0-4298-a601-ff91fdb429f4",
+    "attempt_id": "065883bf-442a-4f7a-839b-77d77a2fe50d",
+    "event_type": "WINDOW_BLUR",
+    "occurred_at": "2026-10-15T08:44:44.332Z",
+    "warning_number": 1,
+    "action_taken": "WARNED",
+    "metadata": {
+      "episode_id": "e99cdaeb-fa25-4954-9df4-af54907f4b6e"
+    }
+  },
+  {
+    "id": "7475a5e8-90fa-44d4-b09d-f26ae429346f",
+    "attempt_id": "065883bf-442a-4f7a-839b-77d77a2fe50d",
+    "event_type": "VISIBILITY_RESTORED",
+    "occurred_at": "2026-10-15T08:44:45.396Z",
+    "warning_number": null,
+    "action_taken": "LOGGED",
+    "metadata": {
+      "episode_id": "e99cdaeb-fa25-4954-9df4-af54907f4b6e"
+    }
+  },
+  {
+    "id": "785d428d-1413-48b7-803c-df65d97617ef",
+    "attempt_id": "065883bf-442a-4f7a-839b-77d77a2fe50d",
+    "event_type": "VISIBILITY_LOST",
+    "occurred_at": "2026-10-15T08:44:51.950Z",
+    "warning_number": 2,
+    "action_taken": "WARNED",
+    "metadata": {
+      "episode_id": "d5d394b0-2daa-488d-8258-e19a6cc09427"
+    }
+  },
+  {
+    "id": "47ff3545-29b9-4f52-90c0-2df7b5e2a638",
+    "attempt_id": "065883bf-442a-4f7a-839b-77d77a2fe50d",
+    "event_type": "WINDOW_BLUR",
+    "occurred_at": "2026-10-15T08:44:51.951Z",
+    "warning_number": null,
+    "action_taken": "IGNORED_DUPLICATE",
+    "metadata": {
+      "episode_id": "d5d394b0-2daa-488d-8258-e19a6cc09427"
+    }
+  },
+  {
+    "id": "cf019a61-e9f4-44c4-b9ca-aed5293e70bf",
+    "attempt_id": "065883bf-442a-4f7a-839b-77d77a2fe50d",
+    "event_type": "VISIBILITY_RESTORED",
+    "occurred_at": "2026-10-15T08:44:53.590Z",
+    "warning_number": null,
+    "action_taken": "LOGGED",
+    "metadata": {
+      "episode_id": "d5d394b0-2daa-488d-8258-e19a6cc09427"
+    }
+  },
+  {
+    "id": "a358f76b-3509-4147-8e4a-f81927093b9a",
+    "attempt_id": "065883bf-442a-4f7a-839b-77d77a2fe50d",
+    "event_type": "WINDOW_BLUR",
+    "occurred_at": "2026-10-15T08:44:55.694Z",
+    "warning_number": 3,
+    "action_taken": "TERMINATED",
+    "metadata": {
+      "episode_id": "d53ec0a5-1433-45a2-822e-68e5ff48c250"
+    }
+  }
+]

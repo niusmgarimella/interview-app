@@ -1,0 +1,35 @@
+[
+  {
+    "id": "be0e9ee7-7927-40df-b171-e9fc1851dfd5",
+    "email": "admin@example.com",
+    "password_hash": "$2a$12$DS71FJLTKP/ItdG7dS5g.e8pGA7YzCxeP/hdHtivaH/I6NczWjc0C",
+    "role": "ADMIN",
+    "account_status": "ACTIVE",
+    "must_change_password": false,
+    "created_at": "2026-10-15T08:37:15.728Z",
+    "updated_at": "2026-10-15T08:37:15.730Z",
+    "last_login_at": "2026-10-15T08:45:13.957Z"
+  },
+  {
+    "id": "24178e43-15c0-4ca5-bd39-4b4f66d9d041",
+    "email": "samhita@gmail.com",
+    "password_hash": "$2a$12$G47Fjj38WtWwJCdXtSVt4Oba31XGHmT3CAxzR1Gzg/bRW97uAoG1a",
+    "role": "CANDIDATE",
+    "account_status": "ACTIVE",
+    "must_change_password": false,
+    "created_at": "2026-10-15T08:38:23.817Z",
+    "updated_at": "2026-10-15T08:38:23.817Z",
+    "last_login_at": "2026-10-15T08:39:09.242Z"
+  },
+  {
+    "id": "a4d293f7-ca3f-4587-b939-bc4ccaa12194",
+    "email": "mamender@gmail.com",
+    "password_hash": "$2a$12$pRECXdlOAUlG4F6K.DG2xe4P/bT7h9fX5EOacqvB8h1vsYn3Ix02G",
+    "role": "CANDIDATE",
+    "account_status": "ACTIVE",
+    "must_change_password": false,
+    "created_at": "2026-10-15T08:43:27.141Z",
+    "updated_at": "2026-10-15T08:43:27.141Z",
+    "last_login_at": "2026-10-15T08:45:08.811Z"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "e84298a6-a81b-4188-9218-bfdae4281b55",
+    "attempt_id": "86e1731a-9531-4b1e-8521-ea0406957a79",
+    "skill_name": "JavaScript",
+    "proficiency": "ADVANCED",
+    "created_at": "2026-10-15T08:39:52.697Z"
+  },
+  {
+    "id": "b50dc8ed-73ff-4252-b517-aa7b915f7640",
+    "attempt_id": "86e1731a-9531-4b1e-8521-ea0406957a79",
+    "skill_name": "React",
+    "proficiency": "ADVANCED",
+    "created_at": "2026-10-15T08:39:52.697Z"
+  },
+  {
+    "id": "479beb61-e82d-42b3-be2d-696e60c1466b",
+    "attempt_id": "86e1731a-9531-4b1e-8521-ea0406957a79",
+    "skill_name": "TypeScript",
+    "proficiency": "ADVANCED",
+    "created_at": "2026-10-15T08:39:52.697Z"
+  },
+  {
+    "id": "4d03c4bd-0717-419e-aa38-7f9c67c0fcd9",
+    "attempt_id": "86e1731a-9531-4b1e-8521-ea0406957a79",
+    "skill_name": "HTML/CSS",
+    "proficiency": "ADVANCED",
+    "created_at": "2026-10-15T08:39:52.697Z"
+  }
+]
