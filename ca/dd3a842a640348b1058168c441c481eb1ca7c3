@@ -1,0 +1,15 @@
+.gitignore
+  h_66e6661b58dc06 1,5
+  h_66e6661b58dc06 4
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "cadd3a842a640348b1058168c441c481eb1ca7c3",
+  "prompts": {},
+  "humans": {
+    "h_66e6661b58dc06": {
+      "author": "tmw-sg366 <sg366@tmw.com>"
+    }
+  }
+}
