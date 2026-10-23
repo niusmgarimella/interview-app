@@ -8,7 +8,7 @@
     "must_change_password": false,
     "created_at": "2026-10-15T08:37:15.728Z",
     "updated_at": "2026-10-15T08:37:15.730Z",
-    "last_login_at": "2026-10-15T09:33:37.783Z"
+    "last_login_at": "2026-10-23T10:04:58.827Z"
   },
   {
     "id": "24178e43-15c0-4ca5-bd39-4b4f66d9d041",
@@ -31,5 +31,27 @@
     "created_at": "2026-10-15T08:43:27.141Z",
     "updated_at": "2026-10-15T08:43:27.141Z",
     "last_login_at": "2026-10-15T08:45:08.811Z"
+  },
+  {
+    "id": "08f4dfc5-5d5c-4317-9a0f-a948faec4625",
+    "email": "garimella@gmail.com",
+    "password_hash": "$2a$12$tEsCELn7UVdXkTMDSC7MZehIxESN/DrIIQfLdO89AabhDQhiTtpNy",
+    "role": "CANDIDATE",
+    "account_status": "ACTIVE",
+    "must_change_password": false,
+    "created_at": "2026-10-20T16:06:42.522Z",
+    "updated_at": "2026-10-20T16:06:42.522Z",
+    "last_login_at": "2026-10-20T16:16:08.619Z"
+  },
+  {
+    "id": "3ef3ffdb-24e9-4ee4-b635-f631b26bc7b6",
+    "email": "rajesh@gmail.com",
+    "password_hash": "$2a$12$wmVZFAvbhZiJTtYNiw3R0uotEs54jom9LAcdAy4YSYOiR7eZFad7C",
+    "role": "CANDIDATE",
+    "account_status": "ACTIVE",
+    "must_change_password": false,
+    "created_at": "2026-10-21T08:33:49.228Z",
+    "updated_at": "2026-10-21T08:33:49.228Z",
+    "last_login_at": "2026-10-23T10:01:08.223Z"
   }
 ]

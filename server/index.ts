@@ -76,7 +76,13 @@ const admin: RequestHandler[] = [requireAuth, requireRole('ADMIN')];
 const cand: RequestHandler[] = [requireAuth, requireRole('CANDIDATE')];
 
 // ---------- auth ----------
-app.post('/api/auth/login', rateLimit({ windowMs: 15 * 60e3, max: 10, standardHeaders: true }), h(async (req, res) => {
+const loginLimiter = rateLimit({
+  windowMs: 15 * 60e3,
+  max: process.env.NODE_ENV === 'production' ? 10 : 100,
+  standardHeaders: true,
+  message: { error: 'Too many login attempts. Please try again after 15 minutes.' },
+});
+app.post('/api/auth/login', loginLimiter, h(async (req, res) => {
   const email = String(req.body.email || '').trim().toLowerCase();
   const u = T.users.find(x => x.email === email);
   const ok = !!u && u.account_status !== 'DISABLED' && await bcrypt.compare(String(req.body.password || ''), u.password_hash);
@@ -340,6 +346,6 @@ app.use(onError);
   }
   // recover attempts left mid-evaluation by a restart
   T.attempts.filter(a => a.status === 'SUBMITTED' || a.status === 'EVALUATING').forEach(a => { evaluateAttempt(a.id).catch(console.error); });
-  const port = process.env.PORT || 3000;
-  app.listen(port, () => console.log('Interview app on http://localhost:' + port));
+  const port = Number(process.env.PORT) || 3000;
+  app.listen(port, '0.0.0.0', () => console.log('Interview app on http://localhost:' + port));
 })().catch(e => { console.error(e); process.exit(1); });

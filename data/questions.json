@@ -368,5 +368,255 @@
     "generation_model": "mock-provider",
     "prompt_version": "1.0",
     "created_at": "2026-10-15T08:44:22.930Z"
+  },
+  {
+    "id": "d95a9315-882c-4e27-b175-914a0244a867",
+    "attempt_id": "059a1135-f1a5-4d39-9e43-fb09ca546883",
+    "sequence_number": 1,
+    "skill_name": "HTML/CSS",
+    "proficiency": "ADVANCED",
+    "question_type": "MCQ",
+    "prompt": "Which CSS property and value combination establishes a new Block Formatting Context (BFC) while ensuring the element does not clip content or add unnecessary scrollbars?",
+    "options": [
+      {
+        "id": "A",
+        "text": "overflow: hidden;"
+      },
+      {
+        "id": "B",
+        "text": "display: flow-root;"
+      },
+      {
+        "id": "C",
+        "text": "float: left;"
+      },
+      {
+        "id": "D",
+        "text": "position: absolute;"
+      }
+    ],
+    "language": null,
+    "points_possible": 10,
+    "generation_model": "gemini-3.5-flash-lite",
+    "prompt_version": "1.0",
+    "created_at": "2026-10-20T16:10:52.810Z"
+  },
+  {
+    "id": "e1e79c71-ebf5-4c9c-ac5b-73b99fc54cbe",
+    "attempt_id": "059a1135-f1a5-4d39-9e43-fb09ca546883",
+    "sequence_number": 2,
+    "skill_name": "HTML/CSS",
+    "proficiency": "ADVANCED",
+    "question_type": "SHORT_TEXT",
+    "prompt": "Explain how the CSS Containment API (`contain` property) improves browser rendering performance, and detail the differences between the `layout`, `paint`, and `strict` values.",
+    "options": null,
+    "language": null,
+    "points_possible": 15,
+    "generation_model": "gemini-3.5-flash-lite",
+    "prompt_version": "1.0",
+    "created_at": "2026-10-20T16:10:52.810Z"
+  },
+  {
+    "id": "97fb0490-5897-43f3-a798-d19890acf9b7",
+    "attempt_id": "059a1135-f1a5-4d39-9e43-fb09ca546883",
+    "sequence_number": 3,
+    "skill_name": "HTML/CSS",
+    "proficiency": "ADVANCED",
+    "question_type": "SHORT_TEXT",
+    "prompt": "Describe the mechanics of the CSS Subgrid feature (`subgrid` value for `grid-template-columns`/`grid-template-rows`). How does it allow nested grid items to align with tracks defined on a parent grid, and what are its primary layout limitations?",
+    "options": null,
+    "language": null,
+    "points_possible": 15,
+    "generation_model": "gemini-3.5-flash-lite",
+    "prompt_version": "1.0",
+    "created_at": "2026-10-20T16:10:52.810Z"
+  },
+  {
+    "id": "f03b596d-087c-4564-92d1-0dbdc2d2e09d",
+    "attempt_id": "386b1001-371b-4b73-8bc1-9cc211dfc155",
+    "sequence_number": 1,
+    "skill_name": "JavaScript",
+    "proficiency": "BEGINNER",
+    "question_type": "MCQ",
+    "prompt": "Which of the following keywords is used to declare a variable that cannot be reassigned in JavaScript?",
+    "options": [
+      {
+        "id": "A",
+        "text": "var"
+      },
+      {
+        "id": "B",
+        "text": "let"
+      },
+      {
+        "id": "C",
+        "text": "const"
+      },
+      {
+        "id": "D",
+        "text": "static"
+      }
+    ],
+    "language": null,
+    "points_possible": 5,
+    "generation_model": "gemini-3.5-flash-lite",
+    "prompt_version": "1.0",
+    "created_at": "2026-10-23T10:01:50.376Z"
+  },
+  {
+    "id": "fa90dddd-508d-48f8-b40b-8cf3d1dc5a68",
+    "attempt_id": "386b1001-371b-4b73-8bc1-9cc211dfc155",
+    "sequence_number": 2,
+    "skill_name": "JavaScript",
+    "proficiency": "BEGINNER",
+    "question_type": "CODING",
+    "prompt": "Write a JavaScript function named 'addNumbers' that takes two parameters, a and b, and returns their sum.",
+    "options": null,
+    "language": "javascript",
+    "points_possible": 10,
+    "generation_model": "gemini-3.5-flash-lite",
+    "prompt_version": "1.0",
+    "created_at": "2026-10-23T10:01:50.376Z"
+  },
+  {
+    "id": "11996419-b661-45a8-a7ff-24c2ea62755b",
+    "attempt_id": "386b1001-371b-4b73-8bc1-9cc211dfc155",
+    "sequence_number": 3,
+    "skill_name": "React",
+    "proficiency": "ADVANCED",
+    "question_type": "MCQ",
+    "prompt": "When implementing custom Hooks in React, what is the primary mechanism React uses to preserve state and hook execution order across multiple renders?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A global hash map keyed by component instance names."
+      },
+      {
+        "id": "B",
+        "text": "An internal linked list per component instance maintained by the reconciler."
+      },
+      {
+        "id": "C",
+        "text": "Closures created during the render phase that bind variables directly to the JSX AST."
+      },
+      {
+        "id": "D",
+        "text": "WeakMaps referencing the fiber node and the hook's invocation index."
+      }
+    ],
+    "language": null,
+    "points_possible": 10,
+    "generation_model": "gemini-3.5-flash-lite",
+    "prompt_version": "1.0",
+    "created_at": "2026-10-23T10:01:50.377Z"
+  },
+  {
+    "id": "639889a9-4cc6-4777-9e70-0bcc3de7e6a2",
+    "attempt_id": "386b1001-371b-4b73-8bc1-9cc211dfc155",
+    "sequence_number": 4,
+    "skill_name": "React",
+    "proficiency": "ADVANCED",
+    "question_type": "CODING",
+    "prompt": "Implement a custom React hook named `useDebounce` that takes a value and a delay (in ms), and returns the debounced value. Additionally, ensure it handles cleanup properly if the component unmounts or if inputs change rapidly.",
+    "options": null,
+    "language": "javascript",
+    "points_possible": 20,
+    "generation_model": "gemini-3.5-flash-lite",
+    "prompt_version": "1.0",
+    "created_at": "2026-10-23T10:01:50.377Z"
+  },
+  {
+    "id": "986e5a4e-96e1-44b9-94e0-fda8fd16c15d",
+    "attempt_id": "386b1001-371b-4b73-8bc1-9cc211dfc155",
+    "sequence_number": 5,
+    "skill_name": "TypeScript",
+    "proficiency": "ADVANCED",
+    "question_type": "MCQ",
+    "prompt": "Which of the following advanced TypeScript features allows you to extract the return type of a function type T?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Parameters<T>"
+      },
+      {
+        "id": "B",
+        "text": "ReturnType<T>"
+      },
+      {
+        "id": "C",
+        "text": "InstanceType<T>"
+      },
+      {
+        "id": "D",
+        "text": "Awaited<T>"
+      }
+    ],
+    "language": null,
+    "points_possible": 5,
+    "generation_model": "gemini-3.5-flash-lite",
+    "prompt_version": "1.0",
+    "created_at": "2026-10-23T10:01:50.377Z"
+  },
+  {
+    "id": "9ec05bac-f241-4f2b-98ef-3cc80a64535b",
+    "attempt_id": "386b1001-371b-4b73-8bc1-9cc211dfc155",
+    "sequence_number": 6,
+    "skill_name": "TypeScript",
+    "proficiency": "ADVANCED",
+    "question_type": "CODING",
+    "prompt": "Implement a TypeScript type `DeepReadonly<T>` that recursively makes all properties of an object (and nested objects/arrays) readonly.",
+    "options": null,
+    "language": "typescript",
+    "points_possible": 10,
+    "generation_model": "gemini-3.5-flash-lite",
+    "prompt_version": "1.0",
+    "created_at": "2026-10-23T10:01:50.377Z"
+  },
+  {
+    "id": "f4543afa-32b4-4551-8a59-faa671d1840c",
+    "attempt_id": "386b1001-371b-4b73-8bc1-9cc211dfc155",
+    "sequence_number": 7,
+    "skill_name": "HTML/CSS",
+    "proficiency": "ADVANCED",
+    "question_type": "MCQ",
+    "prompt": "Which of the following CSS containment properties and values allows the browser to completely skip layout, paint, and style calculations for an element's subtree when it is outside the viewport, maximizing performance?",
+    "options": [
+      {
+        "id": "A",
+        "text": "contain: layout style;"
+      },
+      {
+        "id": "B",
+        "text": "contain: strict;"
+      },
+      {
+        "id": "C",
+        "text": "contain-intrinsic-size: auto; with contain: paint;"
+      },
+      {
+        "id": "D",
+        "text": "content-visibility: auto;"
+      }
+    ],
+    "language": null,
+    "points_possible": 10,
+    "generation_model": "gemini-3.5-flash-lite",
+    "prompt_version": "1.0",
+    "created_at": "2026-10-23T10:01:50.377Z"
+  },
+  {
+    "id": "703ca0df-1081-446c-b144-849e3638c35e",
+    "attempt_id": "386b1001-371b-4b73-8bc1-9cc211dfc155",
+    "sequence_number": 8,
+    "skill_name": "HTML/CSS",
+    "proficiency": "ADVANCED",
+    "question_type": "SHORT_TEXT",
+    "prompt": "Explain how the CSS `:has()` pseudo-class can be utilized to create a parent selector, and describe a scenario where it significantly reduces the need for JavaScript in a complex layout.",
+    "options": null,
+    "language": null,
+    "points_possible": 15,
+    "generation_model": "gemini-3.5-flash-lite",
+    "prompt_version": "1.0",
+    "created_at": "2026-10-23T10:01:50.377Z"
   }
 ]

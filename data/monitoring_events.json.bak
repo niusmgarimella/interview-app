@@ -64,5 +64,27 @@
     "metadata": {
       "episode_id": "d53ec0a5-1433-45a2-822e-68e5ff48c250"
     }
+  },
+  {
+    "id": "3c52710a-7511-41b4-b486-382c9493e70a",
+    "attempt_id": "065883bf-442a-4f7a-839b-77d77a2fe50d",
+    "event_type": "VISIBILITY_LOST",
+    "occurred_at": "2026-10-15T08:44:55.697Z",
+    "warning_number": null,
+    "action_taken": "IGNORED_DUPLICATE",
+    "metadata": {
+      "episode_id": "d53ec0a5-1433-45a2-822e-68e5ff48c250"
+    }
+  },
+  {
+    "id": "b3e0f2a1-6427-4969-828a-0c7dccbc09cd",
+    "attempt_id": "059a1135-f1a5-4d39-9e43-fb09ca546883",
+    "event_type": "WINDOW_BLUR",
+    "occurred_at": "2026-10-20T16:11:28.658Z",
+    "warning_number": 1,
+    "action_taken": "WARNED",
+    "metadata": {
+      "episode_id": "ac517b1c-3c52-468a-846a-b1c03ad29c96"
+    }
   }
 ]

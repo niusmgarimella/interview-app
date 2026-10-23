@@ -54,5 +54,40 @@
     "skill_name": "HTML/CSS",
     "proficiency": "ADVANCED",
     "created_at": "2026-10-15T08:44:22.908Z"
+  },
+  {
+    "id": "7b1d5315-c335-4715-9076-13b832e965a0",
+    "attempt_id": "059a1135-f1a5-4d39-9e43-fb09ca546883",
+    "skill_name": "HTML/CSS",
+    "proficiency": "ADVANCED",
+    "created_at": "2026-10-20T16:10:27.407Z"
+  },
+  {
+    "id": "39914059-8e35-4e69-95c8-8960b8cb4141",
+    "attempt_id": "386b1001-371b-4b73-8bc1-9cc211dfc155",
+    "skill_name": "JavaScript",
+    "proficiency": "BEGINNER",
+    "created_at": "2026-10-23T10:01:35.212Z"
+  },
+  {
+    "id": "d5e5ee2f-1051-4e7b-bafd-a3b5f2af981e",
+    "attempt_id": "386b1001-371b-4b73-8bc1-9cc211dfc155",
+    "skill_name": "React",
+    "proficiency": "ADVANCED",
+    "created_at": "2026-10-23T10:01:35.212Z"
+  },
+  {
+    "id": "87db3eec-1d95-4667-b14e-00afb1b2c8b6",
+    "attempt_id": "386b1001-371b-4b73-8bc1-9cc211dfc155",
+    "skill_name": "TypeScript",
+    "proficiency": "ADVANCED",
+    "created_at": "2026-10-23T10:01:35.212Z"
+  },
+  {
+    "id": "1155e119-2132-4143-83cd-4dd54755ade5",
+    "attempt_id": "386b1001-371b-4b73-8bc1-9cc211dfc155",
+    "skill_name": "HTML/CSS",
+    "proficiency": "ADVANCED",
+    "created_at": "2026-10-23T10:01:35.212Z"
   }
 ]

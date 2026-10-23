@@ -180,5 +180,171 @@
     "hidden_test_case_refs": [],
     "reference_solution": null,
     "evaluation_config": {}
+  },
+  {
+    "question_id": "d95a9315-882c-4e27-b175-914a0244a867",
+    "correct_option_id": "B",
+    "rubric": null,
+    "hidden_test_case_refs": [],
+    "reference_solution": null,
+    "evaluation_config": {}
+  },
+  {
+    "question_id": "e1e79c71-ebf5-4c9c-ac5b-73b99fc54cbe",
+    "correct_option_id": null,
+    "rubric": [
+      {
+        "criterion": "Explains how containment isolates a subtree from the rest of the document to optimize browser reflows and repaints.",
+        "points": 5
+      },
+      {
+        "criterion": "Accurately describes the `layout` value (isolates internal layout from external elements).",
+        "points": 3
+      },
+      {
+        "criterion": "Accurately describes the `paint` value (ensures descendants do not paint outside the element's bounds).",
+        "points": 3
+      },
+      {
+        "criterion": "Accurately describes the `strict` value (applies all containment types including size, layout, style, and paint).",
+        "points": 4
+      }
+    ],
+    "hidden_test_case_refs": [],
+    "reference_solution": null,
+    "evaluation_config": {}
+  },
+  {
+    "question_id": "97fb0490-5897-43f3-a798-d19890acf9b7",
+    "correct_option_id": null,
+    "rubric": [
+      {
+        "criterion": "Explains that subgrid adopts the parent grid's tracks rather than defining its own independent tracks.",
+        "points": 5
+      },
+      {
+        "criterion": "Provides a correct architectural use case (e.g., aligning internal card elements across uneven parent rows).",
+        "points": 5
+      },
+      {
+        "criterion": "Identifies current limitations (e.g., lack of track sizing flexibility/autofill constraints or limited browser legacy fallback support).",
+        "points": 5
+      }
+    ],
+    "hidden_test_case_refs": [],
+    "reference_solution": null,
+    "evaluation_config": {}
+  },
+  {
+    "question_id": "f03b596d-087c-4564-92d1-0dbdc2d2e09d",
+    "correct_option_id": "C",
+    "rubric": null,
+    "hidden_test_case_refs": [],
+    "reference_solution": null,
+    "evaluation_config": {}
+  },
+  {
+    "question_id": "fa90dddd-508d-48f8-b40b-8cf3d1dc5a68",
+    "correct_option_id": null,
+    "rubric": [
+      {
+        "criterion": "Function is correctly named 'addNumbers'",
+        "points": 3
+      },
+      {
+        "criterion": "Function correctly accepts two parameters",
+        "points": 3
+      },
+      {
+        "criterion": "Function returns the sum of the two parameters",
+        "points": 4
+      }
+    ],
+    "hidden_test_case_refs": [],
+    "reference_solution": null,
+    "evaluation_config": {}
+  },
+  {
+    "question_id": "11996419-b661-45a8-a7ff-24c2ea62755b",
+    "correct_option_id": "B",
+    "rubric": null,
+    "hidden_test_case_refs": [],
+    "reference_solution": null,
+    "evaluation_config": {}
+  },
+  {
+    "question_id": "639889a9-4cc6-4777-9e70-0bcc3de7e6a2",
+    "correct_option_id": null,
+    "rubric": [
+      {
+        "criterion": "Correctly utilizes useState and useEffect hooks.",
+        "points": 8
+      },
+      {
+        "criterion": "Implements proper timeout cleanup using clearTimeout on unmount or value/delay change.",
+        "points": 8
+      },
+      {
+        "criterion": "Returns the debounced value correctly.",
+        "points": 4
+      }
+    ],
+    "hidden_test_case_refs": [],
+    "reference_solution": null,
+    "evaluation_config": {}
+  },
+  {
+    "question_id": "986e5a4e-96e1-44b9-94e0-fda8fd16c15d",
+    "correct_option_id": "B",
+    "rubric": null,
+    "hidden_test_case_refs": [],
+    "reference_solution": null,
+    "evaluation_config": {}
+  },
+  {
+    "question_id": "9ec05bac-f241-4f2b-98ef-3cc80a64535b",
+    "correct_option_id": null,
+    "rubric": [
+      {
+        "criterion": "Handles primitive types and basic objects correctly by making them readonly",
+        "points": 4
+      },
+      {
+        "criterion": "Recursively applies readonly to nested objects and arrays",
+        "points": 6
+      }
+    ],
+    "hidden_test_case_refs": [],
+    "reference_solution": null,
+    "evaluation_config": {}
+  },
+  {
+    "question_id": "f4543afa-32b4-4551-8a59-faa671d1840c",
+    "correct_option_id": "D",
+    "rubric": null,
+    "hidden_test_case_refs": [],
+    "reference_solution": null,
+    "evaluation_config": {}
+  },
+  {
+    "question_id": "703ca0df-1081-446c-b144-849e3638c35e",
+    "correct_option_id": null,
+    "rubric": [
+      {
+        "criterion": "Correctly defines `:has()` as a functional pseudo-class matching elements that contain specific descendant or sibling elements matching the relative selector.",
+        "points": 5
+      },
+      {
+        "criterion": "Provides a clear, practical scenario (e.g., styling a form field container differently when an invalid input or checked checkbox is present inside it).",
+        "points": 5
+      },
+      {
+        "criterion": "Explains the performance or maintainability benefit of eliminating JavaScript state management for UI toggling.",
+        "points": 5
+      }
+    ],
+    "hidden_test_case_refs": [],
+    "reference_solution": null,
+    "evaluation_config": {}
   }
 ]

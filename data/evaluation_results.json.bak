@@ -89,5 +89,137 @@
     "evaluation_version": "1.0",
     "status": "COMPLETED",
     "evaluated_at": "2026-10-15T08:42:28.410Z"
+  },
+  {
+    "id": "fb31a28f-224b-42fc-89c6-f0f1d368f904",
+    "attempt_id": "065883bf-442a-4f7a-839b-77d77a2fe50d",
+    "overall_score": 28,
+    "max_score": 55,
+    "skill_scores": {
+      "JavaScript": {
+        "level": "INTERMEDIATE",
+        "score": 11,
+        "max": 15
+      },
+      "React": {
+        "level": "ADVANCED",
+        "score": 11,
+        "max": 15
+      },
+      "TypeScript": {
+        "level": "ADVANCED",
+        "score": 6,
+        "max": 15
+      },
+      "HTML/CSS": {
+        "level": "ADVANCED",
+        "score": 0,
+        "max": 10
+      }
+    },
+    "question_results": [
+      {
+        "question_id": "a2ebe8ff-35dc-4d2e-9c87-016a9f4460dd",
+        "skill_name": "JavaScript",
+        "points": 6,
+        "max": 10,
+        "rationale": "[MOCK] length-based placeholder score"
+      },
+      {
+        "question_id": "62a1f807-29c5-4e27-87e2-7ea0b8eee92a",
+        "skill_name": "JavaScript",
+        "points": 5,
+        "max": 5,
+        "rationale": "Correct"
+      },
+      {
+        "question_id": "c9008d8f-506b-49a8-a517-6e6655a3488f",
+        "skill_name": "React",
+        "points": 6,
+        "max": 10,
+        "rationale": "[MOCK] length-based placeholder score"
+      },
+      {
+        "question_id": "21ac69de-e8b0-423a-83f4-606229a3ae0f",
+        "skill_name": "React",
+        "points": 5,
+        "max": 5,
+        "rationale": "Correct"
+      },
+      {
+        "question_id": "329bfe03-14fe-4630-a361-9ba2a30f2bdf",
+        "skill_name": "TypeScript",
+        "points": 6,
+        "max": 10,
+        "rationale": "[MOCK] length-based placeholder score"
+      },
+      {
+        "question_id": "fe1c0b0c-0f08-4ed7-83ab-2c5adbdcb745",
+        "skill_name": "TypeScript",
+        "points": 0,
+        "max": 5,
+        "rationale": "No answer submitted"
+      },
+      {
+        "question_id": "74ffbbd1-c262-4f7f-bcd6-7c3b392cf2ba",
+        "skill_name": "HTML/CSS",
+        "points": 0,
+        "max": 5,
+        "rationale": "No answer submitted"
+      },
+      {
+        "question_id": "14fd84a1-5503-4505-810f-34fba4ea9ab2",
+        "skill_name": "HTML/CSS",
+        "points": 0,
+        "max": 5,
+        "rationale": "No answer submitted"
+      }
+    ],
+    "feedback": "JavaScript (INTERMEDIATE): 11/15\nReact (ADVANCED): 11/15\nTypeScript (ADVANCED): 6/15\nHTML/CSS (ADVANCED): 0/10",
+    "evaluation_model": "mock-provider",
+    "evaluation_version": "1.0",
+    "status": "COMPLETED",
+    "evaluated_at": "2026-10-15T08:44:55.743Z"
+  },
+  {
+    "id": "e43b1f2d-6dbd-404f-8b77-e4b88e8d39b1",
+    "attempt_id": "059a1135-f1a5-4d39-9e43-fb09ca546883",
+    "overall_score": 35,
+    "max_score": 40,
+    "skill_scores": {
+      "HTML/CSS": {
+        "level": "ADVANCED",
+        "score": 35,
+        "max": 40
+      }
+    },
+    "question_results": [
+      {
+        "question_id": "d95a9315-882c-4e27-b175-914a0244a867",
+        "skill_name": "HTML/CSS",
+        "points": 10,
+        "max": 10,
+        "rationale": "Correct"
+      },
+      {
+        "question_id": "e1e79c71-ebf5-4c9c-ac5b-73b99fc54cbe",
+        "skill_name": "HTML/CSS",
+        "points": 15,
+        "max": 15,
+        "rationale": "The candidate accurately explains how the CSS Containment API isolates subtrees to optimize rendering, and correctly defines the layout, paint, and strict values according to the rubric."
+      },
+      {
+        "question_id": "97fb0490-5897-43f3-a798-d19890acf9b7",
+        "skill_name": "HTML/CSS",
+        "points": 10,
+        "max": 15,
+        "rationale": "The candidate correctly explains how subgrid adopts parent tracks instead of defining independent ones and identifies limitations. However, it misses a concrete architectural use case (such as aligning internal card elements across uneven rows)."
+      }
+    ],
+    "feedback": "HTML/CSS (ADVANCED): 35/40",
+    "evaluation_model": "gemini-3.5-flash-lite",
+    "evaluation_version": "1.0",
+    "status": "COMPLETED",
+    "evaluated_at": "2026-10-20T16:15:50.126Z"
   }
 ]

@@ -183,5 +183,252 @@
     "generation_model": "mock-provider",
     "prompt_version": "1.0",
     "created_at": "2026-10-15T08:39:52.717Z"
+  },
+  {
+    "id": "a2ebe8ff-35dc-4d2e-9c87-016a9f4460dd",
+    "attempt_id": "065883bf-442a-4f7a-839b-77d77a2fe50d",
+    "sequence_number": 1,
+    "skill_name": "JavaScript",
+    "proficiency": "INTERMEDIATE",
+    "question_type": "CODING",
+    "prompt": "[MOCK] INTERMEDIATE JavaScript: write a function that returns the sum of an array of numbers.",
+    "options": null,
+    "language": "javascript",
+    "points_possible": 10,
+    "generation_model": "mock-provider",
+    "prompt_version": "1.0",
+    "created_at": "2026-10-15T08:44:22.930Z"
+  },
+  {
+    "id": "62a1f807-29c5-4e27-87e2-7ea0b8eee92a",
+    "attempt_id": "065883bf-442a-4f7a-839b-77d77a2fe50d",
+    "sequence_number": 2,
+    "skill_name": "JavaScript",
+    "proficiency": "INTERMEDIATE",
+    "question_type": "MCQ",
+    "prompt": "[MOCK] INTERMEDIATE JavaScript question 2: which option is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      }
+    ],
+    "language": null,
+    "points_possible": 5,
+    "generation_model": "mock-provider",
+    "prompt_version": "1.0",
+    "created_at": "2026-10-15T08:44:22.930Z"
+  },
+  {
+    "id": "c9008d8f-506b-49a8-a517-6e6655a3488f",
+    "attempt_id": "065883bf-442a-4f7a-839b-77d77a2fe50d",
+    "sequence_number": 3,
+    "skill_name": "React",
+    "proficiency": "ADVANCED",
+    "question_type": "CODING",
+    "prompt": "[MOCK] ADVANCED React: write a function that returns the sum of an array of numbers.",
+    "options": null,
+    "language": "javascript",
+    "points_possible": 10,
+    "generation_model": "mock-provider",
+    "prompt_version": "1.0",
+    "created_at": "2026-10-15T08:44:22.930Z"
+  },
+  {
+    "id": "21ac69de-e8b0-423a-83f4-606229a3ae0f",
+    "attempt_id": "065883bf-442a-4f7a-839b-77d77a2fe50d",
+    "sequence_number": 4,
+    "skill_name": "React",
+    "proficiency": "ADVANCED",
+    "question_type": "MCQ",
+    "prompt": "[MOCK] ADVANCED React question 2: which option is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      }
+    ],
+    "language": null,
+    "points_possible": 5,
+    "generation_model": "mock-provider",
+    "prompt_version": "1.0",
+    "created_at": "2026-10-15T08:44:22.930Z"
+  },
+  {
+    "id": "329bfe03-14fe-4630-a361-9ba2a30f2bdf",
+    "attempt_id": "065883bf-442a-4f7a-839b-77d77a2fe50d",
+    "sequence_number": 5,
+    "skill_name": "TypeScript",
+    "proficiency": "ADVANCED",
+    "question_type": "CODING",
+    "prompt": "[MOCK] ADVANCED TypeScript: write a function that returns the sum of an array of numbers.",
+    "options": null,
+    "language": "javascript",
+    "points_possible": 10,
+    "generation_model": "mock-provider",
+    "prompt_version": "1.0",
+    "created_at": "2026-10-15T08:44:22.930Z"
+  },
+  {
+    "id": "fe1c0b0c-0f08-4ed7-83ab-2c5adbdcb745",
+    "attempt_id": "065883bf-442a-4f7a-839b-77d77a2fe50d",
+    "sequence_number": 6,
+    "skill_name": "TypeScript",
+    "proficiency": "ADVANCED",
+    "question_type": "MCQ",
+    "prompt": "[MOCK] ADVANCED TypeScript question 2: which option is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      }
+    ],
+    "language": null,
+    "points_possible": 5,
+    "generation_model": "mock-provider",
+    "prompt_version": "1.0",
+    "created_at": "2026-10-15T08:44:22.930Z"
+  },
+  {
+    "id": "74ffbbd1-c262-4f7f-bcd6-7c3b392cf2ba",
+    "attempt_id": "065883bf-442a-4f7a-839b-77d77a2fe50d",
+    "sequence_number": 7,
+    "skill_name": "HTML/CSS",
+    "proficiency": "ADVANCED",
+    "question_type": "MCQ",
+    "prompt": "[MOCK] ADVANCED HTML/CSS question 1: which option is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      }
+    ],
+    "language": null,
+    "points_possible": 5,
+    "generation_model": "mock-provider",
+    "prompt_version": "1.0",
+    "created_at": "2026-10-15T08:44:22.930Z"
+  },
+  {
+    "id": "14fd84a1-5503-4505-810f-34fba4ea9ab2",
+    "attempt_id": "065883bf-442a-4f7a-839b-77d77a2fe50d",
+    "sequence_number": 8,
+    "skill_name": "HTML/CSS",
+    "proficiency": "ADVANCED",
+    "question_type": "MCQ",
+    "prompt": "[MOCK] ADVANCED HTML/CSS question 2: which option is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      }
+    ],
+    "language": null,
+    "points_possible": 5,
+    "generation_model": "mock-provider",
+    "prompt_version": "1.0",
+    "created_at": "2026-10-15T08:44:22.930Z"
+  },
+  {
+    "id": "d95a9315-882c-4e27-b175-914a0244a867",
+    "attempt_id": "059a1135-f1a5-4d39-9e43-fb09ca546883",
+    "sequence_number": 1,
+    "skill_name": "HTML/CSS",
+    "proficiency": "ADVANCED",
+    "question_type": "MCQ",
+    "prompt": "Which CSS property and value combination establishes a new Block Formatting Context (BFC) while ensuring the element does not clip content or add unnecessary scrollbars?",
+    "options": [
+      {
+        "id": "A",
+        "text": "overflow: hidden;"
+      },
+      {
+        "id": "B",
+        "text": "display: flow-root;"
+      },
+      {
+        "id": "C",
+        "text": "float: left;"
+      },
+      {
+        "id": "D",
+        "text": "position: absolute;"
+      }
+    ],
+    "language": null,
+    "points_possible": 10,
+    "generation_model": "gemini-3.5-flash-lite",
+    "prompt_version": "1.0",
+    "created_at": "2026-10-20T16:10:52.810Z"
+  },
+  {
+    "id": "e1e79c71-ebf5-4c9c-ac5b-73b99fc54cbe",
+    "attempt_id": "059a1135-f1a5-4d39-9e43-fb09ca546883",
+    "sequence_number": 2,
+    "skill_name": "HTML/CSS",
+    "proficiency": "ADVANCED",
+    "question_type": "SHORT_TEXT",
+    "prompt": "Explain how the CSS Containment API (`contain` property) improves browser rendering performance, and detail the differences between the `layout`, `paint`, and `strict` values.",
+    "options": null,
+    "language": null,
+    "points_possible": 15,
+    "generation_model": "gemini-3.5-flash-lite",
+    "prompt_version": "1.0",
+    "created_at": "2026-10-20T16:10:52.810Z"
+  },
+  {
+    "id": "97fb0490-5897-43f3-a798-d19890acf9b7",
+    "attempt_id": "059a1135-f1a5-4d39-9e43-fb09ca546883",
+    "sequence_number": 3,
+    "skill_name": "HTML/CSS",
+    "proficiency": "ADVANCED",
+    "question_type": "SHORT_TEXT",
+    "prompt": "Describe the mechanics of the CSS Subgrid feature (`subgrid` value for `grid-template-columns`/`grid-template-rows`). How does it allow nested grid items to align with tracks defined on a parent grid, and what are its primary layout limitations?",
+    "options": null,
+    "language": null,
+    "points_possible": 15,
+    "generation_model": "gemini-3.5-flash-lite",
+    "prompt_version": "1.0",
+    "created_at": "2026-10-20T16:10:52.810Z"
   }
 ]

@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "id": "866f5829-3553-4af0-9f21-db2d17617043",
+    "title": "FED",
+    "description": "",
+    "duration_minutes": 45,
+    "question_count": 8,
+    "allowed_skills": [
+      "JavaScript",
+      "React",
+      "TypeScript",
+      "HTML/CSS"
+    ],
+    "status": "ACTIVE",
+    "created_by": "be0e9ee7-7927-40df-b171-e9fc1851dfd5",
+    "created_at": "2026-10-15T08:38:47.815Z",
+    "updated_at": "2026-10-15T08:38:47.815Z"
+  }
+]

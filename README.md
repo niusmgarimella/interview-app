@@ -4,7 +4,7 @@ TypeScript: Node.js/Express backend + React (Vite) frontend, built from the Tech
 
 ## Run
 ```bash
-cp .env.example .env        # set SESSION_SECRET, PAN_KEY, ADMIN_EMAIL/PASSWORD, (optional) ANTHROPIC_API_KEY
+cp .env.example .env        # set SESSION_SECRET, PAN_KEY, ADMIN_EMAIL/PASSWORD, (optional) GEMINI_API_KEY or ANTHROPIC_API_KEY
 npm install                 # backend deps
 npm start                   # backend (tsx) on http://localhost:3000   (npm run dev = auto-restart)
 cd client && npm install && npm run dev    # React UI on http://localhost:5173
@@ -14,7 +14,7 @@ Production-style: `cd client && npm run build` then `npm start` serves the built
 Compile server to JS: `npm run build` then `npm run start:prod`.
 Optional sample data: `npm run seed` creates a test candidate (`candidate@example.com` / `Candidate@123`), one sample interview and assigns it.
 Sign in as the seeded admin → Candidates → create a candidate (temporary password shown once) → Interviews → create → Attempts → assign.
-Without `ANTHROPIC_API_KEY` a MOCK AI provider is used so you can test the flow end to end.
+Without `GEMINI_API_KEY` or `ANTHROPIC_API_KEY`, a MOCK AI provider is used so you can test the flow end to end.
 
 ## What is implemented
 - Admin-created accounts, bcrypt hashes, rate-limited generic login errors, forced password change, no public signup/forgot-password

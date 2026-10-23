@@ -180,5 +180,137 @@
     "evaluation_version": "1.0",
     "status": "COMPLETED",
     "evaluated_at": "2026-10-15T08:44:55.743Z"
+  },
+  {
+    "id": "e43b1f2d-6dbd-404f-8b77-e4b88e8d39b1",
+    "attempt_id": "059a1135-f1a5-4d39-9e43-fb09ca546883",
+    "overall_score": 35,
+    "max_score": 40,
+    "skill_scores": {
+      "HTML/CSS": {
+        "level": "ADVANCED",
+        "score": 35,
+        "max": 40
+      }
+    },
+    "question_results": [
+      {
+        "question_id": "d95a9315-882c-4e27-b175-914a0244a867",
+        "skill_name": "HTML/CSS",
+        "points": 10,
+        "max": 10,
+        "rationale": "Correct"
+      },
+      {
+        "question_id": "e1e79c71-ebf5-4c9c-ac5b-73b99fc54cbe",
+        "skill_name": "HTML/CSS",
+        "points": 15,
+        "max": 15,
+        "rationale": "The candidate accurately explains how the CSS Containment API isolates subtrees to optimize rendering, and correctly defines the layout, paint, and strict values according to the rubric."
+      },
+      {
+        "question_id": "97fb0490-5897-43f3-a798-d19890acf9b7",
+        "skill_name": "HTML/CSS",
+        "points": 10,
+        "max": 15,
+        "rationale": "The candidate correctly explains how subgrid adopts parent tracks instead of defining independent ones and identifies limitations. However, it misses a concrete architectural use case (such as aligning internal card elements across uneven rows)."
+      }
+    ],
+    "feedback": "HTML/CSS (ADVANCED): 35/40",
+    "evaluation_model": "gemini-3.5-flash-lite",
+    "evaluation_version": "1.0",
+    "status": "COMPLETED",
+    "evaluated_at": "2026-10-20T16:15:50.126Z"
+  },
+  {
+    "id": "e7c2d303-daed-484c-9cac-13fcf4611282",
+    "attempt_id": "386b1001-371b-4b73-8bc1-9cc211dfc155",
+    "overall_score": 15,
+    "max_score": 85,
+    "skill_scores": {
+      "JavaScript": {
+        "level": "BEGINNER",
+        "score": 15,
+        "max": 15
+      },
+      "React": {
+        "level": "ADVANCED",
+        "score": 0,
+        "max": 30
+      },
+      "TypeScript": {
+        "level": "ADVANCED",
+        "score": 0,
+        "max": 15
+      },
+      "HTML/CSS": {
+        "level": "ADVANCED",
+        "score": 0,
+        "max": 25
+      }
+    },
+    "question_results": [
+      {
+        "question_id": "f03b596d-087c-4564-92d1-0dbdc2d2e09d",
+        "skill_name": "JavaScript",
+        "points": 5,
+        "max": 5,
+        "rationale": "Correct"
+      },
+      {
+        "question_id": "fa90dddd-508d-48f8-b40b-8cf3d1dc5a68",
+        "skill_name": "JavaScript",
+        "points": 10,
+        "max": 10,
+        "rationale": "The function is correctly named 'addNumbers', accepts two parameters (a and b), and returns their sum."
+      },
+      {
+        "question_id": "11996419-b661-45a8-a7ff-24c2ea62755b",
+        "skill_name": "React",
+        "points": 0,
+        "max": 10,
+        "rationale": "Incorrect"
+      },
+      {
+        "question_id": "639889a9-4cc6-4777-9e70-0bcc3de7e6a2",
+        "skill_name": "React",
+        "points": 0,
+        "max": 20,
+        "rationale": "The candidate answer is just a function call placeholder and does not implement any of the required functionality, useState, useEffect, or cleanup."
+      },
+      {
+        "question_id": "986e5a4e-96e1-44b9-94e0-fda8fd16c15d",
+        "skill_name": "TypeScript",
+        "points": 0,
+        "max": 5,
+        "rationale": "Incorrect"
+      },
+      {
+        "question_id": "9ec05bac-f241-4f2b-98ef-3cc80a64535b",
+        "skill_name": "TypeScript",
+        "points": 0,
+        "max": 10,
+        "rationale": "The candidate only provided the type name without any implementation."
+      },
+      {
+        "question_id": "f4543afa-32b4-4551-8a59-faa671d1840c",
+        "skill_name": "HTML/CSS",
+        "points": 0,
+        "max": 10,
+        "rationale": "Incorrect"
+      },
+      {
+        "question_id": "703ca0df-1081-446c-b144-849e3638c35e",
+        "skill_name": "HTML/CSS",
+        "points": 0,
+        "max": 15,
+        "rationale": "The candidate answer is incomplete and only provides the name of the pseudo-class without addressing any of the rubric criteria."
+      }
+    ],
+    "feedback": "JavaScript (BEGINNER): 15/15\nReact (ADVANCED): 0/30\nTypeScript (ADVANCED): 0/15\nHTML/CSS (ADVANCED): 0/25",
+    "evaluation_model": "gemini-3.5-flash-lite",
+    "evaluation_version": "1.0",
+    "status": "COMPLETED",
+    "evaluated_at": "2026-10-23T10:04:53.650Z"
   }
 ]

@@ -89,5 +89,150 @@
     "hidden_test_case_refs": [],
     "reference_solution": null,
     "evaluation_config": {}
+  },
+  {
+    "question_id": "a2ebe8ff-35dc-4d2e-9c87-016a9f4460dd",
+    "correct_option_id": null,
+    "rubric": [
+      {
+        "criterion": "Correct approach",
+        "points": 6
+      },
+      {
+        "criterion": "Edge cases",
+        "points": 4
+      }
+    ],
+    "hidden_test_case_refs": [],
+    "reference_solution": null,
+    "evaluation_config": {}
+  },
+  {
+    "question_id": "62a1f807-29c5-4e27-87e2-7ea0b8eee92a",
+    "correct_option_id": "B",
+    "rubric": null,
+    "hidden_test_case_refs": [],
+    "reference_solution": null,
+    "evaluation_config": {}
+  },
+  {
+    "question_id": "c9008d8f-506b-49a8-a517-6e6655a3488f",
+    "correct_option_id": null,
+    "rubric": [
+      {
+        "criterion": "Correct approach",
+        "points": 6
+      },
+      {
+        "criterion": "Edge cases",
+        "points": 4
+      }
+    ],
+    "hidden_test_case_refs": [],
+    "reference_solution": null,
+    "evaluation_config": {}
+  },
+  {
+    "question_id": "21ac69de-e8b0-423a-83f4-606229a3ae0f",
+    "correct_option_id": "B",
+    "rubric": null,
+    "hidden_test_case_refs": [],
+    "reference_solution": null,
+    "evaluation_config": {}
+  },
+  {
+    "question_id": "329bfe03-14fe-4630-a361-9ba2a30f2bdf",
+    "correct_option_id": null,
+    "rubric": [
+      {
+        "criterion": "Correct approach",
+        "points": 6
+      },
+      {
+        "criterion": "Edge cases",
+        "points": 4
+      }
+    ],
+    "hidden_test_case_refs": [],
+    "reference_solution": null,
+    "evaluation_config": {}
+  },
+  {
+    "question_id": "fe1c0b0c-0f08-4ed7-83ab-2c5adbdcb745",
+    "correct_option_id": "B",
+    "rubric": null,
+    "hidden_test_case_refs": [],
+    "reference_solution": null,
+    "evaluation_config": {}
+  },
+  {
+    "question_id": "74ffbbd1-c262-4f7f-bcd6-7c3b392cf2ba",
+    "correct_option_id": "B",
+    "rubric": null,
+    "hidden_test_case_refs": [],
+    "reference_solution": null,
+    "evaluation_config": {}
+  },
+  {
+    "question_id": "14fd84a1-5503-4505-810f-34fba4ea9ab2",
+    "correct_option_id": "B",
+    "rubric": null,
+    "hidden_test_case_refs": [],
+    "reference_solution": null,
+    "evaluation_config": {}
+  },
+  {
+    "question_id": "d95a9315-882c-4e27-b175-914a0244a867",
+    "correct_option_id": "B",
+    "rubric": null,
+    "hidden_test_case_refs": [],
+    "reference_solution": null,
+    "evaluation_config": {}
+  },
+  {
+    "question_id": "e1e79c71-ebf5-4c9c-ac5b-73b99fc54cbe",
+    "correct_option_id": null,
+    "rubric": [
+      {
+        "criterion": "Explains how containment isolates a subtree from the rest of the document to optimize browser reflows and repaints.",
+        "points": 5
+      },
+      {
+        "criterion": "Accurately describes the `layout` value (isolates internal layout from external elements).",
+        "points": 3
+      },
+      {
+        "criterion": "Accurately describes the `paint` value (ensures descendants do not paint outside the element's bounds).",
+        "points": 3
+      },
+      {
+        "criterion": "Accurately describes the `strict` value (applies all containment types including size, layout, style, and paint).",
+        "points": 4
+      }
+    ],
+    "hidden_test_case_refs": [],
+    "reference_solution": null,
+    "evaluation_config": {}
+  },
+  {
+    "question_id": "97fb0490-5897-43f3-a798-d19890acf9b7",
+    "correct_option_id": null,
+    "rubric": [
+      {
+        "criterion": "Explains that subgrid adopts the parent grid's tracks rather than defining its own independent tracks.",
+        "points": 5
+      },
+      {
+        "criterion": "Provides a correct architectural use case (e.g., aligning internal card elements across uneven parent rows).",
+        "points": 5
+      },
+      {
+        "criterion": "Identifies current limitations (e.g., lack of track sizing flexibility/autofill constraints or limited browser legacy fallback support).",
+        "points": 5
+      }
+    ],
+    "hidden_test_case_refs": [],
+    "reference_solution": null,
+    "evaluation_config": {}
   }
 ]

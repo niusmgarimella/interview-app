@@ -43,5 +43,68 @@
     "target_id": "065883bf-442a-4f7a-839b-77d77a2fe50d",
     "occurred_at": "2026-10-15T08:44:05.314Z",
     "details": {}
+  },
+  {
+    "id": "3066c7d3-36bc-428d-a5b1-20d84ed5cf75",
+    "actor_user_id": "be0e9ee7-7927-40df-b171-e9fc1851dfd5",
+    "action": "CANDIDATE_CREATED",
+    "target_type": "user",
+    "target_id": "08f4dfc5-5d5c-4317-9a0f-a948faec4625",
+    "occurred_at": "2026-10-20T16:06:42.535Z",
+    "details": {}
+  },
+  {
+    "id": "9a6cf982-3788-47a7-a3bb-a3aa6f93cfc9",
+    "actor_user_id": "be0e9ee7-7927-40df-b171-e9fc1851dfd5",
+    "action": "INTERVIEW_CREATED",
+    "target_type": "interview",
+    "target_id": "080d49ba-e1e6-4dc4-99ca-15e89ad15965",
+    "occurred_at": "2026-10-20T16:09:09.861Z",
+    "details": {}
+  },
+  {
+    "id": "1482e0b2-c172-4473-891d-a9b524a21e89",
+    "actor_user_id": "be0e9ee7-7927-40df-b171-e9fc1851dfd5",
+    "action": "ATTEMPT_ASSIGNED",
+    "target_type": "attempt",
+    "target_id": "059a1135-f1a5-4d39-9e43-fb09ca546883",
+    "occurred_at": "2026-10-20T16:09:55.570Z",
+    "details": {}
+  },
+  {
+    "id": "b76860b7-9fd4-4d81-9182-791790f562c3",
+    "actor_user_id": "be0e9ee7-7927-40df-b171-e9fc1851dfd5",
+    "action": "ATTEMPT_ASSIGNED",
+    "target_type": "attempt",
+    "target_id": "0f1e22bf-6468-44af-a17a-cac2f376330a",
+    "occurred_at": "2026-10-21T08:33:30.205Z",
+    "details": {}
+  },
+  {
+    "id": "7d55f0fd-0e72-4f64-bd62-3b8135f97001",
+    "actor_user_id": "be0e9ee7-7927-40df-b171-e9fc1851dfd5",
+    "action": "CANDIDATE_CREATED",
+    "target_type": "user",
+    "target_id": "3ef3ffdb-24e9-4ee4-b635-f631b26bc7b6",
+    "occurred_at": "2026-10-21T08:33:49.255Z",
+    "details": {}
+  },
+  {
+    "id": "98cd83da-ab19-4eb4-8da3-a2eba31a2740",
+    "actor_user_id": "be0e9ee7-7927-40df-b171-e9fc1851dfd5",
+    "action": "ATTEMPT_ASSIGNED",
+    "target_type": "attempt",
+    "target_id": "386b1001-371b-4b73-8bc1-9cc211dfc155",
+    "occurred_at": "2026-10-21T08:34:00.375Z",
+    "details": {}
+  },
+  {
+    "id": "cc6efed6-5a0a-480d-b35c-914d598600bf",
+    "actor_user_id": "be0e9ee7-7927-40df-b171-e9fc1851dfd5",
+    "action": "ATTEMPT_ASSIGNED",
+    "target_type": "attempt",
+    "target_id": "3eb6698b-2194-492a-a6fb-538caa12fb52",
+    "occurred_at": "2026-10-23T10:00:35.017Z",
+    "details": {}
   }
 ]
